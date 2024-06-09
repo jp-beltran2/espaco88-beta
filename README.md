@@ -1,6 +1,6 @@
-# Barbearia Awesome
+# Barbearia Espaço 88
 
-Este é um projeto de um sistema de agendamento de horários para uma barbearia. O sistema foi desenvolvido como parte do projeto para a disciplina de Análise e Desenvolvimento de Sistemas, do 3º semestre do curso de ADS da UniCEUB, em Brasília.
+Este é um projeto de um sistema de agendamento de horários para uma barbearia. O sistema foi desenvolvido como parte do projeto para a disciplina de Análise e Desenvolvimento de Sistemas, do 3º semestre do curso de ADS da UniCEUB
 
 ## Descrição do Projeto
 
@@ -10,8 +10,7 @@ A Barbearia Awesome deseja oferecer aos seus clientes a comodidade de agendar se
 
 - Visualização dos horários disponíveis para agendamento.
 - Agendamento de horários disponíveis.
-- Cancelamento de agendamentos.
-- Notificação por email de confirmação de agendamento.
+
 
 ## Tecnologias Utilizadas
 
