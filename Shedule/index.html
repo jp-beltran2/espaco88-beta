@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="page">
+    <header>
+        <H1>AGENDA</H1>
+    </header>
+
+        <div class="calendar">
+                <div class="header">
+                    <button id="prev" onclick="prevMonth()">&lt;</button>
+                    <h2 id="month-year"></h2>
+                    <button id="next" onclick="nextMonth()">&gt;</button>
+                </div>
+            <div class="days"></div>
+        </div>
+        <div class="event-form">
+            <select name="" id="event-form">
+                <option value="">Corte - 35$</option>
+                <option value="">Barba - 20$</option>
+                <option value="">Sobrancelha - 15$</option>/
+                <option value="">Arte - A combinar</option>
+            </select>
+            <button onclick="addEvent()">Adicionar evento</button>
+        </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

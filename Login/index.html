@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page" class="flex">
+       <div>
+         <header>
+            <img src="assets/logo-espaço.svg" alt="">
+         </header>
+
+        <main>
+            <div class="headline">
+                <h1>Acesse a plataforma</h1>
+                <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</h2>
+            </div>
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" required placeholder="Digite seu email">
+                </div>
+
+                <div class="input-wrapper">
+                    <div class="label-wrapper flex">
+                        <label for="">Senha</label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
+                    <input id="senha" type="password" required placeholder="Digite sua senha">
+                    <img onclick="togglePassword()" src="assets/hide-password.svg" alt="" class="eye">
+                    <img onclick="togglePassword()" src="assets/show-password.svg" alt="" class="eye hide">
+                </div>
+
+                <button type="submit">Entrar</button>
+                <div class="create-account">
+                    <p>Ainda não tem uma conta? <a id="inscrever" href="#">Inscreva-se</a></p>
+                </div>
+            </form>
+        </main>
+       </div>
+       <img id="img-fundo" src="assets/img.png" alt="">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+
+</html>

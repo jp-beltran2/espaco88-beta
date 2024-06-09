@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+
+body {
+    
+    background: rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+
+    font-size: 40px;
+
+}
+
+h1{
+        color: #F6DA5E;
+}
+
+.calendar {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#prev, #next {
+
+    font-weight: bold ;
+    background-color: #F6DA5E;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#prev:hover, #next:hover {
+    background-color: #e9da95;
+}
+
+#month-year {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F6DA5E;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.weekend {
+    background-color: #000;
+}
+
+.day:hover {
+    background-color: #e9da95;
+}
+
+.event-form {
+    margin-top: 20px;
+}
+
+.event-form input[type="date"],
+.event-form input[type="text"],
+.event-form button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.event-form button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem 2.4rem;
+
+    background: #F6DA5E;
+    border-radius: 0.4rem;
+
+    width: 100%;
+
+    font-weight: bold;
+    line-height: 24px;
+
+    color: #ffff;
+
+    margin-block: 3.2rem;
+
+    padding: 1.6rem 1.2rem;
+}
+
+.event-form button:hover {
+    background-color: #e9da95;
+}
+
+.event {
+    background-color: #F6DA5E;
+    color: #000;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#event-input{
+    width: 100%;
+    background: #ffff;
+    border: 0.1rem solid #1a1a1a;
+
+    border-radius: 0.4rem;
+    width: 38.4rem;
+    height: 5.3rem;
+
+    margin-top: 0.8rem;
+
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #1E293B;
+    
+    padding: 1.6rem 2.4rem;
+
+}
+
+#event-form {
+
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #ffff;
+    background-color: #1a1a1a;
+  }
+  
+  #event-form option {
+    padding: 10px;
+  }

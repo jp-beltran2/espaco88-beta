@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    background: rgb(23, 22, 22);
+}
+
+button{
+    all: unset;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #F6DA5E;
+    font-weight: 700;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#page {
+    height: 100vh;
+  }
+
+.flex{
+    display: flex;
+}
+
+#page > *{
+    width: 50%;
+}
+
+#img-fundo {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+header img{
+    width: 9.5rem;
+    height: 14.3rem;
+    
+    
+}
+
+#page > div{
+    padding: 4rem 11.2rem;
+}
+
+main{
+
+    max-width: 38.4rem;
+    
+}
+
+
+.headline{
+    max-width: 35rem;
+}
+
+h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+
+h1 + p{
+    margin-top: 1.6rem;
+}
+
+
+
+form{
+    margin-top : 4rem;
+}
+
+
+input{
+    width: 100%;
+    background: #ffff;
+    border: 0.1rem solid #1E293B;
+
+    border-radius: 0.4rem;
+    width: 38.4rem;
+    height: 5.3rem;
+
+    margin-top: 0.8rem;
+
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #1E293B;
+    
+    padding: 1.6rem 2.4rem;
+
+
+}
+
+input:focus,
+input:hover{
+    border: 0.1rem solid #F6DA5E;
+    outline: 0;
+}
+
+form button{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem 2.4rem;
+
+    background: #F6DA5E;
+    border-radius: 0.4rem;
+
+    width: 100%;
+
+    font-weight: bold;
+    line-height: 24px;
+
+    color: #ffff;
+
+    margin-block: 3.2rem;
+
+    padding: 1.6rem 1.2rem;
+
+}
+
+.input-wrapper{
+    position: relative;
+}
+
+
+form .input-wrapper + .input-wrapper{
+    margin-top: 1.6rem;
+
+}
+
+label{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #ffff;
+}
+
+.label-wrapper + a{
+    color: #F6DA5E;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+
+
+input::placeholder{
+    font-size: 14px;
+    line-height: 21px;
+    color: #94a3b8;
+}
+
+.label-wrapper{
+    justify-content: space-between;
+}
+::-ms-reveal{
+    display: none;
+}
+
+.eye{
+    width: 2rem;
+    height: 2rem;
+
+    position: absolute;
+    top: 60%;
+    right: 5%;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+form button:active,
+form button:focus{
+    cursor: pointer;
+    border-radius: 0.2rem;
+
+}
+
+form button:focus {
+    outline: 0.2rem solid black;
+    border-radius: 0.2rem;
+  }
+  
+form button:hover {
+    background: #e9da95;
+}
+
+.create-account {
+    color: #475569;
+  }
+
+
+  @media (max-width: 900px) {
+    #page > * {
+      width: 100%;
+    }
+    #page > img {
+      display: none;
+    }
+  
+    #page > div {
+      padding: 11rem;
+    }
+  
+    main {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #page > div {
+      padding: 4rem;
+    }
+  }
