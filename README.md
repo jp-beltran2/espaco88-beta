@@ -4,7 +4,7 @@ Este é um projeto de um sistema de agendamento de horários para uma barbearia.
 
 ## Descrição do Projeto
 
-A Barbearia Awesome deseja oferecer aos seus clientes a comodidade de agendar seus horários de forma online. Este sistema permite que os clientes vejam a disponibilidade de horários e façam seus agendamentos de forma simples e rápida.
+A Barbearia Espaço88 deseja oferecer aos seus clientes a comodidade de agendar seus horários de forma online. Este sistema permite que os clientes vejam a disponibilidade de horários e façam seus agendamentos de forma simples e rápida.
 
 ## Funcionalidades
 
